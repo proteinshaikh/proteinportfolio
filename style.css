@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif; /* Use a common sans-serif font */
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff; /* White background for header */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure image covers the area nicely */
+    margin-bottom: 15px;
+    border: 3px solid #ddd; /* Optional border */
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: #2c3e50; /* Dark blue color */
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #7f8c8d; /* Grey color */
+    font-weight: normal;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #3498db; /* Blue link color */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #fff; /* White background for sections */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h3 {
+    border-bottom: 2px solid #3498db; /* Blue underline for section titles */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+ul {
+    list-style-type: disc; /* Use standard bullets */
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.job, .education-item {
+    margin-bottom: 20px;
+}
+
+.job h4, .education-item h4 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.job p, .education-item p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+
+.job em, .education-item em { /* Style for Tech Stack/Project lines */
+    color: #555;
+    font-style: italic;
+}
+
+strong { /* Make skill categories bold */
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Add more specific styles as needed */
